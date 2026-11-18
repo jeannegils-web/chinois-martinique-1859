@@ -149,6 +149,19 @@ section.block h2 { font-size: 1.55rem; margin-top: 0; }
   border-radius: 0 var(--radius) var(--radius) 0; margin: 1.4rem 0;
 }
 
+/* ---------- portrait d'accueil ---------- */
+.portrait-frame {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .7rem; box-shadow: var(--shadow); margin: 0;
+}
+.portrait-frame img {
+  width: 100%; height: auto; display: block;
+  border-radius: calc(var(--radius) - 4px); filter: sepia(.12) contrast(1.02);
+}
+.portrait-frame figcaption {
+  font-size: .8rem; color: var(--ink-soft); padding: .55rem .25rem .1rem; text-align: center;
+}
+
 /* ---------- database ---------- */
 .db-toolbar { display: grid; gap: .9rem; margin: 1.4rem 0; }
 .db-filters {

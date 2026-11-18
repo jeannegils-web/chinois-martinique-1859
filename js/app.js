@@ -162,6 +162,23 @@ function viewAccueil() {
     </div>
   </section>
 
+  <section class="block container" id="visages">
+    <div class="two-col">
+      <figure class="portrait-frame">
+        <img src="photos/portrait-accueil.jpg" alt="Portrait photographique d'un immigrant chinois, collection de la recherche" loading="lazy">
+        <figcaption>Photographie de la collection du projet — en attente de la légende définitive.</figcaption>
+      </figure>
+      <div style="display:flex;flex-direction:column;justify-content:center">
+        <h2 style="margin-top:0">Des visages derrière les chiffres</h2>
+        <p class="muted">Derrière les registres et les totaux, il y a des existences : des hommes comme celui-ci,
+        partis d'un village du Jiangsu ou du Guangdong, qui ont traversé l'Atlantique, travaillé sous
+        contrat et pris racine dans les bourgs martiniquais.
+        Chaque fiche de la base vise à restituer ce parcours individuel.</p>
+        <a class="btn btn-line" href="#/base" style="align-self:flex-start">Explorer les 977 fiches</a>
+      </div>
+    </div>
+  </section>
+
   <section class="block container">
     <div class="two-col">
       <div>
