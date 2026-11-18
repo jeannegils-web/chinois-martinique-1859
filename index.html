@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les engagés chinois en Martinique · 1859–1860</title>
+  <meta name="description" content="Base de données interactive des 977 Chinois ayant immigré en Martinique entre 1859 et 1860 : recherches, fiches individuelles, méthodologie et contributions validées.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23b3382c'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23f6f1e7' font-family='serif'%3E華%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#app">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/accueil" class="brand">
+        <span class="brand-mark" aria-hidden="true">華</span>
+        <span class="brand-text">
+          <strong>Engagés chinois · Martinique</strong>
+          <small>1859–1860 · corpus nominatif</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#/accueil" data-nav="accueil">Accueil</a>
+        <a href="#/histoire" data-nav="histoire">Histoire</a>
+        <a href="#/methodologie" data-nav="methodologie">Méthodologie</a>
+        <a href="#/base" data-nav="base">Base de données</a>
+        <a href="#/contribuer" data-nav="contribuer">Contribuer</a>
+      </nav>
+      <a href="#/base" class="btn btn-accent header-cta">Rechercher une personne</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open')">☰</button>
+    </div>
+    <div class="data-banner" role="note">
+      <span class="banner-chip">Version de démonstration</span>
+      Les fiches actuellement affichées sont des <strong>données d'exemple</strong> respectant la structure du corpus.
+      Chaque champ sera remplacé progressivement par les relevés des registres d'archives.
+    </div>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Le projet</h4>
+        <p>Redonner un nom, un âge, un village et une trajectoire aux engagés chinois arrivés en Martinique en 1859–1860, une page peu visible de l'histoire post-abolition.</p>
+      </div>
+      <div>
+        <h4>Naviguer</h4>
+        <ul>
+          <li><a href="#/histoire">L'histoire du corpus</a></li>
+          <li><a href="#/methodologie">Méthodologie &amp; sources</a></li>
+          <li><a href="#/base">Base de données</a></li>
+          <li><a href="#/contribuer">Proposer une contribution</a></li>
+          <li><a href="#/validation">Modération (démo)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contributions</h4>
+        <p>Chaque proposition est vérifiée par un binôme avant publication : source obligatoire, vérification croisée, traçabilité complète.</p>
+        <p id="footer-contrib-count" class="muted"></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">Projet citoyen · version gratuite de test d'intérêt — hébergement statique, sans collecte commerciale de données.</div>
+    </div>
+  </footer>
+
+  <div id="modal-root"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
