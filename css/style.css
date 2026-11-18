@@ -82,9 +82,18 @@ a:hover { color: var(--accent); }
 
 /* ---------- hero ---------- */
 .hero {
-  background: linear-gradient(160deg, var(--ink) 0%, #264043 60%, #2e5550 100%);
+  background:
+    linear-gradient(180deg, rgba(24, 38, 41, .82), rgba(24, 38, 41, .88)),
+    url("../photos/hero-accueil.jpg") center 42% / cover no-repeat,
+    linear-gradient(160deg, var(--ink) 0%, #264043 60%, #2e5550 100%);
   color: var(--paper); padding: 4rem 0 3.2rem; text-align: center; position: relative; overflow: hidden;
 }
+.hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(0deg, rgba(24,38,41,.35), rgba(24,38,41,0) 40%, rgba(24,38,41,.25));
+  pointer-events: none;
+}
+.hero > .container { position: relative; z-index: 1; }
 .hero::after {
   content: "華"; position: absolute; right: -2rem; bottom: -4.5rem; font-size: 16rem;
   font-family: serif; color: rgba(255,255,255,.05); pointer-events: none;
@@ -147,19 +156,6 @@ section.block h2 { font-size: 1.55rem; margin-top: 0; }
 .callout {
   border-left: 4px solid var(--gold); background: #fbf6e7; padding: 1rem 1.2rem;
   border-radius: 0 var(--radius) var(--radius) 0; margin: 1.4rem 0;
-}
-
-/* ---------- portrait d'accueil ---------- */
-.portrait-frame {
-  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: .7rem; box-shadow: var(--shadow); margin: 0;
-}
-.portrait-frame img {
-  width: 100%; height: auto; display: block;
-  border-radius: calc(var(--radius) - 4px); filter: sepia(.12) contrast(1.02);
-}
-.portrait-frame figcaption {
-  font-size: .8rem; color: var(--ink-soft); padding: .55rem .25rem .1rem; text-align: center;
 }
 
 /* ---------- database ---------- */
