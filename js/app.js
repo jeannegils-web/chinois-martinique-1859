@@ -139,13 +139,11 @@ function viewAccueil() {
   return `
   <section class="hero">
     <div class="container">
-      <div class="hero-panel">
-        <p class="eyebrow">Mémoire &amp; archives</p>
-        <h1>Les engagés chinois en Martinique, 1859–1860</h1>
-        <p class="lead">Dix ans après l'abolition de l'esclavage, 977 hommes, femmes et enfants — embarqués
-        à Shanghai et à Canton — débarquent en Martinique sous contrat d'engagement pour les habitations.
-        Ce site reconstitue leur passage, personne par personne.</p>
-      </div>
+      <p class="eyebrow">Mémoire &amp; archives</p>
+      <h1>Les engagés chinois en Martinique, 1859–1860</h1>
+      <p class="lead">Dix ans après l'abolition de l'esclavage, 977 hommes, femmes et enfants — embarqués
+      à Shanghai et à Canton — débarquent en Martinique sous contrat d'engagement pour les habitations.
+      Ce site reconstitue leur passage, personne par personne.</p>
       <form class="quick-search" onsubmit="return handleQuickSearch(event)">
         <input type="search" placeholder="Rechercher un nom, un lieu, un navire…" aria-label="Recherche rapide">
         <button class="btn btn-accent" type="submit">Rechercher</button>
