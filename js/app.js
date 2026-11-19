@@ -152,6 +152,7 @@ function viewAccueil() {
         <a class="btn btn-ghost" href="#/histoire">Découvrir l'histoire</a>
         <a class="btn btn-ghost" href="#/contribuer">Proposer une contribution</a>
       </div>
+      <p class="hero-credit">Illustration d'arrière-plan créée par intelligence artificielle</p>
     </div>
   </section>
 
@@ -653,6 +654,10 @@ function viewHistoire() {
     <h2>Les « Chins » : une immigration chinoise peu visible</h2>
     <div class="two-col">
       <div>
+        <figure class="illus">
+          <img src="photos/histoire-chins.jpg" alt="Illustration d'un engagé chinois du XIXe siècle en Martinique">
+          <figcaption class="small muted">Illustration créée par intelligence artificielle</figcaption>
+        </figure>
         <p>Dix ans après l'abolition de l'esclavage de 1848, les planteurs de Martinique cherchent une main-d'œuvre de
         substitution. Sur les 37 008 engagés amenés dans l'île dans la seconde moitié du XIXᵉ siècle
         (25 509 Indiens, 10 521 Congos), les Chinois forment le contingent le plus restreint : environ
